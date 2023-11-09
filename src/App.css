@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: auto;
+  height: 100vh;
+  background: #ffffff;
+  /* background: linear-gradient(0deg, #000000, #000000),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+overflow: hidden;*/
+  scrollbar-width: thin;
+  display: flex;
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+.atm-front {
+  background-image: url("../Images/cardImg.png");
+
+  width: 28%;
+  height: 30%;
+  border-radius: 10px;
+  border: 1px;
+  margin-top: 75px;
+  margin-left: 200px;
+  overflow: hidden;
+  position: absolute;
+}
+.atm-back {
+  background: #d9d9d9;
+  background-image: url("../Images/atmBack.png");
+  width: 28%;
+  height: 30%;
+  border-radius: 10px;
+  border: 1px;
+  background-size: cover;
+  margin-top: 390px;
+  margin-left: 280px;
+  overflow: hidden;
+  position: absolute;
+}
+.atm-front .Input {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 31px;
+  letter-spacing: 0.18em;
+  text-align: left;
+  width: 100%;
+  height: 27px;
+  margin-top: 60px;
+  margin-left: 18px;
+}
+.card-deatils input {
+  padding-left: 10px;
+  width: 390px;
+  margin-top: 10px;
+}
+.atm-front h3 {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0.19em;
+  text-align: left;
+  width: 155px;
+  height: 11px;
+  padding-top: 30px;
+  padding-left: 18px;
+}
+.atm-front p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.235em;
+  text-align: left;
+  width: 51px;
+  height: 13px;
+  padding-top: 30px;
+  padding-left: 180px;
+}
+
+.content {
+  display: flex;
+}
+.blacklayout {
+  width: 100%;
+  height: 47.14px;
+  margin-top: 20px;
+  background: #000000;
+}
+.greylayout {
+  width: 85%;
+  height: 34.45px;
+  margin-top: 102px;
+  border-radius: 4px;
+
+  margin-left: 28px;
+
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-family: var(--roboto);
+  font-weight: 700;
+  position: absolute;
+}
+.greylayout h3 {
+  float: right;
+  padding-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.card-deatils {
+  position: absolute;
+  float: right;
+  margin-top: 200px;
+  margin-left: 130px;
+  width: 450px;
+}
+.card-deatils h2 {
+  font-size: 20px;
+}
+.card-deatils input {
+  width: 100%;
+  height: 44px;
+
+  border-radius: 6px;
+  border: 1px solid black;
+}
+.Date {
+  display: flex;
+}
+.Date .div1 {
+  width: 20%;
+  height: 44px;
+
+  border-radius: 6px;
+  border: 1px solid black;
+}
+.Date .div2 {
+  width: 20%;
+  height: 44px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+.Date .div3 {
+  width: 60%;
+  height: 44px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+.submit {
+  width: 100%;
+  height: 53px;
+
+  border-radius: 6px;
+  border: 1px;
+  background: linear-gradient(0deg, #000000, #000000),
+    linear-gradient(0deg, #220930, #220930);
+  color: #ffffff;
+  margin-top: 20px;
+}
+label {
+  color: red;
+}
+.Part1 {
+  width: 42px;
+  height: 42px;
+  background: #feffff;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.Part2 {
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(127.75deg, #623ff2 19.57%, #5e37ec 93.11%),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  border-radius: 50%;
+  border: 1.5px solid #ffffff;
+  margin-top: 30px;
+  margin-left: 12px;
+}
+
+.atm-partition {
+  background-image: linear-gradient(153deg, #101a19, #3d1634, #2a1a3f, #270626);
+  flex: 1;
+}
+.credit-form-partition {
+  background-color: #d9d9d9;
+}
+form {
+  align-self: center;
+  justify-self: center;
+  letter-spacing: 1.875px;
+  margin-left: 12rem;
+  width: 100%;
+
+  
+}
